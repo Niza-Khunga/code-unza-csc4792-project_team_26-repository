@@ -21,14 +21,14 @@ By implementing an automated classification system:
 *Increase public access to information :* providing non-specialists, including journalists and citizens, with user-friendly tools to find relevant laws.
 
 # 1.3 Data Mining Goals
-to achive the business objectives we need to:
+To achive the business objectives we need to:
 
-Build a multiclass text classification model to categorise Zambian legislative documents into predifined legal categories such as Constitutional law, Criminal law and Commercial law.
-Employ text preprocessing techniques e.g tokenization, stopword removal, stemming.
-Use TF-IDF for feature extraction and evaluate advanced models such as BERT for semantic understanding.
-Evaluate model performance using metrics such as F1-score, precision and recall to ensure balanced classification performance.
+-Build a multiclass text classification model to categorise Zambian legislative documents into predifined legal categories such as Constitutional law, Criminal law  and Commercial law.
+-Employ text preprocessing techniques e.g tokenization, stopword removal, stemming.
+-Use TF-IDF for feature extraction and evaluate advanced models such as BERT for semantic understanding.
+-Evaluate model performance using metrics such as F1-score, precision and recall to ensure balanced classification performance.
 
-# 1.4 success criteria
+# 1.4 Success Criteria
 The success of this project will be evaluated based on both techinical performance and its 
 usefulness to stakeholders in the legal sector.
 
