@@ -40,4 +40,4 @@ the model should significantly improve the efficiency of sorting and categorizin
 making it easier for legal professional, researcher and government agencies to access releveant legislation. 
 if the model can correctly categorize atleast 8 out of 10 new legal documents during user.
 testing it will be considered successful. furthermore, success includes proper documentation, 
-version control via github, an smooth intergration of the model into a usable interface or workflow.
+version control via github, an smooth intergration of the model into a usable interface or workflow. [BU] tag
