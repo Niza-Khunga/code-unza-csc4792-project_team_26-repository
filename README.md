@@ -9,7 +9,7 @@ Our project aims to automate this classification process.
 By developing a machine learning model, we can accurately and efficiently 
 classify zambian legislative documents(such as bills, acts, and statutory instruments) 
 based on their content, thereby stramlining the retrieval of legal information. 
-This will improve accessibility and reduce the time and effort required for manuel sorting.
+This will improve accessibility and reduce the time and effort required for manual sorting.
 
 # 1.2 Business Objectives
 The primary objective of this project is to improve access 
