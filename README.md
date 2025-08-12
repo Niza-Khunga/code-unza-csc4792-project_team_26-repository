@@ -29,8 +29,8 @@ Use TF-IDF for feature extraction and evaluate advanced models such as BERT for 
 Evaluate model performance using metrics such as F1-score, precision and recall to ensure balanced classification performance.
 
 # 1.4 success criteria
-the success of this project will be evaluated based on both techinical performance and its 
-usefulness to stakeholders in the legal sector
+The success of this project will be evaluated based on both techinical performance and its 
+usefulness to stakeholders in the legal sector.
 
 From a technical perspective, the classification model should achieve an accuracy 
 of at least 85% on the test data. additional performance metrics such as precision, 
@@ -38,6 +38,6 @@ recall, and F1-score will also be assessed to ensure the model is balanced and b
 towards any specific catergory of legislation. From a business perspective, 
 the model should significantly improve the efficiency of sorting and categorizing legal documents, 
 making it easier for legal professional, researcher and government agencies to access releveant legislation. 
-if the model can correctly categorize atleast 8 out of 190 new lkegal documents during user 
+if the model can correctly categorize atleast 8 out of 10 new legal documents during user.
 testing it will be considered successful. furthermore, success includes proper documentation, 
 version control via github, an smooth intergration of the model into a usable interface or workflow.
