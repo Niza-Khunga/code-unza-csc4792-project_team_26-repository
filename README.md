@@ -22,7 +22,7 @@ By implementing an automated classification system:
 with user-friendly tools to find relevant laws.
 
 # 1.3 Data Mining Goals
-To achive the business objectives we need to:
+To meet the business objectives, we need to:
 
 -Build a multiclass text classification model to categorise Zambian legislative documents into predifined legal categories 
 such as Constitutional law, Criminal law  and Commercial law.
