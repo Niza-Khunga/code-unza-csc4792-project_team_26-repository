@@ -59,7 +59,7 @@ Initial exploration helps identify structure, completeness and characteristics o
 Number of records: 60 Columns:Title, Text, Category Missing values: Some documents have missing or very short text Distribution of categories: Unequal representation; some categories are underrepresented Text length: High variability, indicating some Acts are very short, others very long
 
 
-2.2 Summary of initial findings
+### 2.2 Summary of initial findings
 
 Dataset size: 60rows x 7 columns Category distribution: Most documents are of Finance or Labour Acts. categories like Security and NGOs have got fewer examples Text completeness: A few Acts have missing text ot extremely short descriptions Length variation: Text lengths vary widely (Certain Acts have a lot of pages while some have a few paragraphs)
 
