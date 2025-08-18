@@ -1,6 +1,6 @@
 # CSC-4792-Group-26
-Business Understanding
-# 1.1 Problem Statement
+## 1. Business Understanding
+### 1.1 Problem Statement
 Zambian legislative documents are currently categorized and sorted manually. 
 This Process is time_consuming, prone to human error, and can make it difficult for citizens, 
 legal professionals and researchers to effeciently search for and retrieve specific types of legislation.
@@ -11,7 +11,7 @@ classify zambian legislative documents(such as bills, acts, and statutory instru
 based on their content, thereby stramlining the retrieval of legal information. 
 This will improve accessibility and reduce the time and effort required for manual sorting.
 
-# 1.2 Business Objectives
+### 1.2 Business Objectives
 The primary objective of this project is to improve access 
 to and organisation of Zambian legislation. 
 By implementing an automated classification system:
@@ -21,7 +21,7 @@ By implementing an automated classification system:
 *Increase public access to information :* providing non-specialists, including journalists and citizens, 
 with user-friendly tools to find relevant laws.
 
-# 1.3 Data Mining Goals
+### 1.3 Data Mining Goals
 To meet the business objectives, we need to:
 
 -Build a multiclass text classification model to categorise Zambian legislative documents into predifined legal categories 
@@ -30,7 +30,7 @@ such as Constitutional law, Criminal law  and Commercial law.
 -Use TF-IDF for feature extraction and evaluate advanced models such as BERT for semantic understanding.
 -Evaluate model performance using metrics such as F1-score, precision and recall to ensure balanced classification performance.
 
-# 1.4 Success Criteria
+### 1.4 Success Criteria
 The success of this project will be evaluated based on both techinical performance and its 
 usefulness to stakeholders in the legal sector.
 
@@ -43,6 +43,9 @@ making it easier for legal professional, researcher and government agencies to a
 if the model can correctly categorize atleast 8 out of 10 new legal documents during user.
 testing it will be considered successful. furthermore, success includes proper documentation, 
 version control via github, an smooth intergration of the model into a usable interface or workflow.
+
+
+## 2. Data Understanding
 
 2.1 Overview of Dataset
 The dataset contains a collecction of Zambian legislation documents, including Acts and Bills. Each row represnts a single piece of legislation, with columns for:
