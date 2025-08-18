@@ -24,11 +24,11 @@ with user-friendly tools to find relevant laws.
 ### 1.3 Data Mining Goals
 To meet the business objectives, we need to:
 
--Build a multiclass text classification model to categorise Zambian legislative documents into predifined legal categories 
+- Build a multiclass text classification model to categorise Zambian legislative documents into predifined legal categories 
 such as Constitutional law, Criminal law  and Commercial law.
--Employ text preprocessing techniques e.g tokenization, stopword removal, stemming.
--Use TF-IDF for feature extraction and evaluate advanced models such as BERT for semantic understanding.
--Evaluate model performance using metrics such as F1-score, precision and recall to ensure balanced classification performance.
+- Employ text preprocessing techniques e.g tokenization, stopword removal, stemming.
+- Use TF-IDF for feature extraction and evaluate advanced models such as BERT for semantic understanding.
+- Evaluate model performance using metrics such as F1-score, precision and recall to ensure balanced classification performance.
 
 ### 1.4 Success Criteria
 The success of this project will be evaluated based on both techinical performance and its 
@@ -54,11 +54,13 @@ Title: The official title of the Act or Bill. Text: Full or partial text of the 
 
 Initial exploration helps identify structure, completeness and characteristics of the data
 
-2.2 Data Exploration
+### 2.2 Data Exploration
+
 Number of records: 60 Columns:Title, Text, Category Missing values: Some documents have missing or very short text Distribution of categories: Unequal representation; some categories are underrepresented Text length: High variability, indicating some Acts are very short, others very long
 
 
 2.2 Summary of initial findings
+
 Dataset size: 60rows x 7 columns Category distribution: Most documents are of Finance or Labour Acts. categories like Security and NGOs have got fewer examples Text completeness: A few Acts have missing text ot extremely short descriptions Length variation: Text lengths vary widely (Certain Acts have a lot of pages while some have a few paragraphs)
 
 Implications:
