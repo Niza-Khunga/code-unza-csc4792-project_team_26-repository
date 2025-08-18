@@ -47,14 +47,16 @@ version control via github, an smooth intergration of the model into a usable in
 
 ## 2. Data Understanding
 
-2.1 Overview of Dataset
+### 2.1 Overview of Dataset
+
 The dataset contains a collecction of Zambian legislation documents, including Acts and Bills. Each row represnts a single piece of legislation, with columns for:
 Title: The official title of the Act or Bill. Text: Full or partial text of the legislation category: the assigned Category for classification (e.g., Finance, Labour, Trade, Security, etc.).
 
-
 Initial exploration helps identify structure, completeness and characteristics of the data
+
 2.2 Data Exploration
 Number of records: 60 Columns:Title, Text, Category Missing values: Some documents have missing or very short text Distribution of categories: Unequal representation; some categories are underrepresented Text length: High variability, indicating some Acts are very short, others very long
+
 
 2.2 Summary of initial findings
 Dataset size: 60rows x 7 columns Category distribution: Most documents are of Finance or Labour Acts. categories like Security and NGOs have got fewer examples Text completeness: A few Acts have missing text ot extremely short descriptions Length variation: Text lengths vary widely (Certain Acts have a lot of pages while some have a few paragraphs)
