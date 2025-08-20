@@ -83,4 +83,10 @@ Label Encoding: Converted Category into numerical codes for ML compatibility.
 Text Vectorization: Used TF-IDF with a 5,000-term vocabulary and English stopword removal to represent legislative text numerically. 
 Scaling: Standardized numerical features (text_length, word_count) to prevent them from overpowering text features.
 
+## 3.4 Documentation & Rationale
+Dropping missing/short entries improves data quality and prevents noise in the model.
+Added features (text_length, word_count, year) because document structure often reflects category type (e.g., Finance Acts are typically shorter).
+TF-IDF chosen over Bag-of-Words because it highlights distinctive terms and reduces the impact of common legal words like “Act” and “provide.”
+Label encoding ensures categorical labels can be used in supervised learning.
+
 
