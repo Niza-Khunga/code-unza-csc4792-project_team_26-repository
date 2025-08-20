@@ -78,4 +78,9 @@ Added text_length feature to capture complexity of legislation.
 Added word_count feature to measure verbosity.
 Extracted year from legislation titles where available.
 
+## DATA TRASNFORMATION 
+Label Encoding: Converted Category into numerical codes for ML compatibility.
+Text Vectorization: Used TF-IDF with a 5,000-term vocabulary and English stopword removal to represent legislative text numerically. 
+Scaling: Standardized numerical features (text_length, word_count) to prevent them from overpowering text features.
+
 
