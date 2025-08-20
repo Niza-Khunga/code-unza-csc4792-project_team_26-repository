@@ -65,3 +65,6 @@ Dataset size: 60rows x 7 columns Category distribution: Most documents are of Fi
 
 *Implications*:
 Some preprocessing will be necessary (removing or padding short texts) Categories may need balancing for classification models visualizations help identify patterns in category distribution and text lengths
+
+## Data Preparation
+
