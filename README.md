@@ -73,5 +73,9 @@ Dropped rows with missing or empty text fields.
 Filtered out very short texts(<20 characters) since they don't provide meaniningful signals.
 Standardized formatting (lowerecased text, stripped whitespace).
 
+## FEATURE ENGINEERING
+Added text_length feature to capture complexity of legislation.
+Added word_count feature to measure verbosity.
+Extracted year from legislation titles where available.
 
 
