@@ -90,3 +90,9 @@ TF-IDF chosen over Bag-of-Words because it highlights distinctive terms and redu
 Label encoding ensures categorical labels can be used in supervised learning.
 
 ## 4 Modeling 
+In this section, we build and train machine learning models to classify Zambian legislative documents.  
+We experiment with two baseline algorithms commonly used for text classification:  
+- Logistic Regression  
+- Naive Bayes  
+
+These models are chosen because they are effective with TF-IDF features and provide a solid baseline for text classification tasks.
