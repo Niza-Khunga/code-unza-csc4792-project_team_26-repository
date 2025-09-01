@@ -83,7 +83,7 @@ Label Encoding: Converted Category into numerical codes for ML compatibility.
 Text Vectorization: Used TF-IDF with a 5,000-term vocabulary and English stopword removal to represent legislative text numerically. 
 Scaling: Standardized numerical features (text_length, word_count) to prevent them from overpowering text features.
 
-## 3.4 Documentation & Rationale
+### 3.4 Documentation & Rationale
 Dropping missing/short entries improves data quality and prevents noise in the model.
 Added features (text_length, word_count, year) because document structure often reflects category type (e.g., Finance Acts are typically shorter).
 TF-IDF chosen over Bag-of-Words because it highlights distinctive terms and reduces the impact of common legal words like “Act” and “provide.”
@@ -113,3 +113,8 @@ Support Vector Machine (SVM)
 Accuracy: 42%
 Lower performance overall.
 Captured some majority categories but missed minority classes entirely.
+
+###4.2 Observations
+Logistic Regression and Naïve Bayes are tied as the best models (58%).
+The dataset is too small and unbalanced for the models to generalize well.
+Precision and recall for minority categories were 0 (not predicted at all).
