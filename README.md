@@ -73,7 +73,7 @@ Dropped rows with missing or empty text fields.
 Filtered out very short texts(<20 characters) since they don't provide meaniningful signals.
 Standardized formatting (lowerecased text, stripped whitespace).
 
-## FEATURE ENGINEERING
+### 3.2 Feature Engineering
 Added text_length feature to capture complexity of legislation.
 Added word_count feature to measure verbosity.
 Extracted year from legislation titles where available.
@@ -96,3 +96,20 @@ We experiment with two baseline algorithms commonly used for text classification
 - Naive Bayes  
 
 These models are chosen because they are effective with TF-IDF features and provide a solid baseline for text classification tasks.
+
+### 4.1 Models Tested
+We trained and evaluated three classification models using TF-IDF features:
+Logistic Regression
+Accuracy: 58%
+Strong performance on majority categories (Finance, Environmental Law).
+Failed to predict minority categories.
+
+Naïve Bayes
+Accuracy: 58%
+Performed similarly to Logistic Regression.
+Best suited for text data but still struggled due to small dataset size.
+
+Support Vector Machine (SVM)
+Accuracy: 42%
+Lower performance overall.
+Captured some majority categories but missed minority classes entirely.
