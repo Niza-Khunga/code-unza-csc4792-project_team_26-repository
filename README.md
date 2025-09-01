@@ -119,5 +119,15 @@ Captured some majority categories but missed minority classes entirely.
 - *Underrepresented categories* (NGOs, Security) were not predicted well.  
 - More preprocessing (balancing categories, expanding dataset) is needed to improve performance.
 
+## 5. Next Steps  
+
+- **Data Expansion**: Collect more legislative documents, especially for underrepresented categories (NGOs, Security).  
+- **Balancing Techniques**: Apply oversampling or SMOTE to handle class imbalance.  
+- **Advanced Models**: Explore Random Forest, XGBoost, and BERT for text classification.  
+- **Feature Engineering**: Improve preprocessing (lemmatization, removing noisy text, domain-specific stopwords).  
+- **Deployment Preparation**: Package the best model into an interface for easy use by legal professionals and researchers.  
+
+
+
 
 
