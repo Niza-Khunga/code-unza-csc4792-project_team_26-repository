@@ -89,4 +89,4 @@ Added features (text_length, word_count, year) because document structure often 
 TF-IDF chosen over Bag-of-Words because it highlights distinctive terms and reduces the impact of common legal words like “Act” and “provide.”
 Label encoding ensures categorical labels can be used in supervised learning.
 
-
+## 4 Modeling 
