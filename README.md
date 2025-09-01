@@ -115,6 +115,9 @@ Lower performance overall.
 Captured some majority categories but missed minority classes entirely.
 
 ### 4.2 Observations
-Logistic Regression and Naïve Bayes are tied as the best models (58%).
-The dataset is too small and unbalanced for the models to generalize well.
-Precision and recall for minority categories were 0 (not predicted at all).
+- Both *Logistic Regression* and *Naive Bayes* achieved ~58% accuracy.  
+- *Underrepresented categories* (NGOs, Security) were not predicted well.  
+- More preprocessing (balancing categories, expanding dataset) is needed to improve performance.
+
+
+
