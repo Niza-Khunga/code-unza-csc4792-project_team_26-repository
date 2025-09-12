@@ -121,8 +121,6 @@ Captured some majority categories but missed minority classes entirely.
 - More preprocessing (balancing categories, expanding dataset) is needed to improve performance.
 
 ## 5. Evaluation of Model  
-
-- 
 ### 5.1 Results  
 - Best model: Logistic Regression  
 - Accuracy: 58%  
@@ -142,6 +140,8 @@ Captured some majority categories but missed minority classes entirely.
 ### 5.3 Interpretation  
 The model performs well on majority categories but poorly on minority ones.  
 It does not yet meet the 85% accuracy success criterion.
+
+
 
 
 
