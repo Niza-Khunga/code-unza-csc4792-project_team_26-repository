@@ -128,7 +128,7 @@ Captured some majority categories but missed minority classes entirely.
 - Accuracy: 58%  
 - Macro Precision: 0.23428571428571426  
 - Macro Recall: 0.4  
-- Macro F1:0.29545454545454547  
+- Macro F1: 0.29545454545454547  
 
 ### 5.2 Confusion Matrix  
 | True \ Pred | Class 1 | Class 2 | Class 3 | Class 4 | Class 5 |
