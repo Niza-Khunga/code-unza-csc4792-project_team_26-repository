@@ -120,13 +120,28 @@ Captured some majority categories but missed minority classes entirely.
 - *Underrepresented categories* (NGOs, Security) were not predicted well.  
 - More preprocessing (balancing categories, expanding dataset) is needed to improve performance.
 
-## 5. Next Steps  
+## 5. Evaluation of Model  
 
-- **Data Expansion**: Collect more legislative documents, especially for underrepresented categories (NGOs, Security).  
-- **Balancing Techniques**: Apply oversampling or SMOTE to handle class imbalance.  
-- **Advanced Models**: Explore Random Forest, XGBoost, and BERT for text classification.  
-- **Feature Engineering**: Improve preprocessing (lemmatization, removing noisy text, domain-specific stopwords).  
-- **Deployment Preparation**: Package the best model into an interface for easy use by legal professionals and researchers.  
+- 
+### 5.1 Results  
+- Best model: Logistic Regression  
+- Accuracy: 58%  
+- Macro Precision: 0.23428571428571426  
+- Macro Recall: 0.4  
+- Macro F1:0.29545454545454547  
+
+### 5.2 Confusion Matrix  
+| True \ Pred | Class 1 | Class 2 | Class 3 | Class 4 | Class 5 |
+|-------------|---------|---------|---------|---------|---------|
+| Class 1     | 4       | 0       | 0       | 0       | 0       |
+| Class 2     | 0       | 3       | 0       | 0       | 0       |
+| Class 3     | 1       | 1       | 0       | 0       | 0       |
+| Class 4     | 2       | 0       | 0       | 0       | 0       |
+| Class 5     | 0       | 1       | 0       | 0       | 0       |
+
+### 5.3 Interpretation  
+The model performs well on majority categories but poorly on minority ones.  
+It does not yet meet the 85% accuracy success criterion.
 
 
 
