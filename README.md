@@ -151,7 +151,10 @@ It does not yet meet the 85% accuracy success criterion.
   - Strong imbalance: Finance and Labour categories had more examples, while Security and NGO categories were underrepresented.  
   - Wide variation in text length across Acts
 
-Faith Type Here
+- **Classification Results**  
+  - Finance and Labour Acts were classified most accurately.  
+  - Categories such as Security and NGOs were rarely predicted correctly due to too few training examples.  
+  - Logistic Regression and Naive Bayes both achieved ~58% accuracy, while SVM performed worse (42%).
 
 - **Comparison to Success Criteria**  
   - Original target: ≥85% accuracy.  
