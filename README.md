@@ -143,6 +143,60 @@ Captured some majority categories but missed minority classes entirely.
 The model performs well on majority categories but poorly on minority ones.  
 It does not yet meet the 85% accuracy success criterion.
 
+## 6. Deployment  
+
+Nephas Type Here
+
+
+Faith Type Here
+
+- **Comparison to Success Criteria**  
+  - Original target: ≥85% accuracy.  
+  - Achieved: 58% accuracy.  
+  - Although the target was not met, the results show that automated classification of Zambian legislation is **feasible** and would improve with a larger, more balanced dataset and advanced models (e.g., BERT).  
+
+---
+
+Enala Type here
+  
+
+Musengwa Type here
+
+- **Future Deployment Possibilities**  
+  - Build a **REST API** that takes legislative text and returns the predicted category for integration into other systems.  
+  - Integrate into the **UNZA Institutional Repository** or government legal archives to support better organization and discovery of legal documents.  
+  - Extend into a **dashboard** where trends can be visualized (e.g., how many Finance Acts vs. Environmental Acts were passed in a given year).  
+
+---
+
+### 6.3 Example Deployment Function  
+We implemented a simple function `fxn_predict_new_instance()` to simulate deployment.  
+This function takes in a new legal text, transforms it using TF-IDF, and predicts the category using our final model.  
+It also outputs a **confidence score** for the prediction.  
+
+```python
+def fxn_predict_new_instance(text):
+    """
+    Simulates deployment of the model.
+    Takes raw legal text and returns both the predicted category 
+    and the model's confidence score.
+    """
+    # Convert input text into TF-IDF features
+    X_new = vectorizer.transform([text])
+
+    # Predict numerical label
+    prediction = best_model.predict(X_new)[0]
+
+    # Get prediction probability (confidence score)
+    if hasattr(best_model, "predict_proba"):
+        confidence = best_model.predict_proba(X_new).max()
+    else:
+        confidence = None  
+
+    # Convert numerical label back to category name
+    category = le.inverse_transform([prediction])[0]
+
+    return category, confidence
 
 
 
