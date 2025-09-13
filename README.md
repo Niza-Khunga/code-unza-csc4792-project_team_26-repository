@@ -210,6 +210,9 @@ def fxn_predict_new_instance(text):
 
 
 
-
+- **Practical Use Cases**  
+  - Legal professionals, researchers, and citizens can quickly categorize legislation without manually reading entire documents.  
+  - Predictions can be stored in a database, making it easier to filter and search by category.  
+  - Acts can be automatically tagged during publication to improve accessibility.
 
 
