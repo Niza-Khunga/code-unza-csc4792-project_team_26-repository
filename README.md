@@ -144,7 +144,7 @@ The model performs well on majority categories but poorly on minority ones.
 It does not yet meet the 85% accuracy success criterion.
 
 ## 6. Deployment  
-
+### 6.1 Key Insights 
 - *Dataset Quality & Structure*  
   - Total of 60 legislative documents (Acts and Bills).  
   - Some documents had missing or very short text.  
