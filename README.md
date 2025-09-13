@@ -163,7 +163,11 @@ It does not yet meet the 85% accuracy success criterion.
 
 ---
 
-Enala Type here
+### 6.2 Deployment Plan  
+- *User Interaction*  
+  - The model can be integrated into a simple interface (web or desktop).  
+  - Users paste or upload the text of a Bill/Act.  
+  - The model predicts the most likely category (e.g. Finance, Security, Environmental, NGOs, Professional Regulation).
   
 
 Musengwa Type here
