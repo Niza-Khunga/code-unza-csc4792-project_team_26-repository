@@ -145,8 +145,11 @@ It does not yet meet the 85% accuracy success criterion.
 
 ## 6. Deployment  
 
-Nephas Type Here
-
+- *Dataset Quality & Structure*  
+  - Total of 60 legislative documents (Acts and Bills).  
+  - Some documents had missing or very short text.  
+  - Strong imbalance: Finance and Labour categories had more examples, while Security and NGO categories were underrepresented.  
+  - Wide variation in text length across Acts
 
 Faith Type Here
 
